@@ -80,6 +80,7 @@ public class Inicio {
 		for (int i = 0; i < em.length; i++) {
 			System.out.println("Ingrese empleado:");
 			System.out.println("Nombre:");
+			s.next();
 			nombre = s.nextLine();
 			System.out.println("Sueldo:");
 			sueldo = s.nextDouble();
