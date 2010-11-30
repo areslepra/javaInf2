@@ -3,6 +3,7 @@ package Problema8;
 import java.io.*;
 
 class prome {
+	@SuppressWarnings("deprecation")
 	public static void main(String args[]) throws IOException {
 		InputStream in = System.in;
 		DataInputStream inputStream = new DataInputStream(in);
@@ -26,6 +27,7 @@ class prome {
 		promedio = (numero1 + numero2 + numero3) / 3;
 		miarchivo.writeDouble(promedio);
 		miarchivo.close();
+		@SuppressWarnings("unused")
 		String line = inputStream.readLine();
 	}
 }
